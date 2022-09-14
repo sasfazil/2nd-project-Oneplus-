@@ -2226,7 +2226,7 @@ body {
   width: 50%;
   margin-bottom: 5%;
 }
-.aboutus22 > img {
+.aboutus22 > a > img {
   width: 30%;
   margin-left: 67%;
 }
