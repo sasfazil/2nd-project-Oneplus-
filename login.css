@@ -1,0 +1,813 @@
+body {
+  margin: auto;
+  font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial,
+    sans-serif, system-ui;
+  overflow-x: hidden;
+}
+
+/* NAVBAR CSS */
+
+#navbar {
+  width: 100%;
+  display: inline-block;
+  height: 55px;
+  border-bottom: 1px solid #a9a9a9;
+}
+#brand {
+  width: 13%;
+  margin-left: 1%;
+  float: left;
+}
+#brand > a > img {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+#navitems {
+  float: left;
+  width: 45%;
+  margin-left: 9%;
+}
+.Phone {
+  float: left;
+  width: auto;
+}
+.TV {
+  float: left;
+  width: auto;
+}
+.Audio {
+  float: left;
+  width: auto;
+}
+.Wearables {
+  float: left;
+  width: auto;
+}
+.Accessories {
+  float: left;
+  width: auto;
+}
+.Offers {
+  width: auto;
+  float: left;
+}
+.Phone ul li {
+  list-style: none;
+}
+.Phone ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Phone ul li ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 54px;
+  text-align: center;
+  right: 0px;
+  height: 40%;
+  line-height: 40px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px grey;
+}
+.Phone ul li:focus-within > ul,
+.Phone ul li:hover > ul {
+  display: block;
+}
+.phoneimg {
+  width: 13%;
+  height: 15%;
+  margin-left: 3%;
+  float: left;
+}
+.phone1 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -52%;
+  text-align: center;
+}
+.phone2 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -45%;
+}
+.phone3 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -36%;
+}
+.phone4 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -29%;
+}
+.phone5 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -23%;
+}
+.phone6 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -14%;
+}
+.TV ul li {
+  list-style: none;
+}
+.TV ul li a {
+  text-decoration: none;
+  color: black;
+}
+.TV ul li ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 54px;
+  text-align: center;
+  right: 0px;
+  height: 40%;
+  line-height: 40px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px grey;
+}
+.TV ul li:focus-within > ul,
+.TV ul li:hover > ul {
+  display: block;
+}
+.tvimg {
+  width: 13%;
+  height: 15%;
+  margin-left: 3%;
+  float: left;
+}
+.tv1 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -53%;
+  text-align: center;
+}
+.tv2 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -44%;
+}
+.tv3 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -38%;
+}
+.tv4 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -28%;
+}
+.tv5 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -20%;
+}
+.tv6 {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -14%;
+}
+.Audio ul li {
+  list-style: none;
+}
+.Audio ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Audio ul li ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 54px;
+  text-align: center;
+  right: 0px;
+  height: 40%;
+  box-shadow: 0px 2px 5px grey;
+  line-height: 40px;
+  background-color: #fff;
+}
+.Audio ul li:focus-within > ul,
+.Audio ul li:hover > ul {
+  display: block;
+}
+.earimg {
+  width: 13%;
+  height: 15%;
+  margin-left: 3%;
+  float: left;
+}
+.ear1 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -55%;
+  text-align: center;
+  width: 17%;
+  line-height: 25px;
+}
+.ear2 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -45%;
+}
+.ear3 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -37%;
+}
+.ear4 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -31%;
+}
+.ear5 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -21%;
+}
+.ear6 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -13%;
+}
+.Wearables ul li {
+  list-style: none;
+}
+.Wearables ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Wearables ul li ul {
+  display: none;
+  box-shadow: 0px 2px 5px grey;
+  position: absolute;
+  width: 100%;
+  top: 54px;
+  right: 0px;
+  height: 40%;
+  line-height: 40px;
+  background-color: #fff;
+}
+.Wearables ul li:focus-within > ul,
+.Wearables ul li:hover > ul {
+  display: block;
+}
+.watchimg1 {
+  width: 13%;
+  height: 15%;
+  float: left;
+  margin-left: 34%;
+}
+.watchimg2 {
+  width: 13%;
+  height: 15%;
+  float: left;
+  margin-left: 3%;
+}
+.watch1 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -10%;
+}
+.watch2 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: -10%;
+}
+.Accessories ul li {
+  list-style: none;
+}
+.Accessories ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Accessories ul li ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 54px;
+  box-shadow: 0px 2px 5px grey;
+  text-align: center;
+  right: 0px;
+  height: 40%;
+  line-height: 40px;
+  background-color: #fff;
+}
+.Accessories ul li:focus-within > ul,
+.Accessories ul li:hover > ul {
+  display: block;
+}
+.caseimg1 {
+  width: 13%;
+  height: 15%;
+  margin-left: 20%;
+  float: left;
+}
+.caseimg {
+  width: 13%;
+  height: 15%;
+  margin-left: 3%;
+  float: left;
+}
+.case1 {
+  position: absolute;
+  float: left;
+  margin-top: 12%;
+  margin-left: -44%;
+}
+.case2 {
+  position: absolute;
+  float: left;
+  margin-top: 12%;
+  margin-left: -36%;
+}
+.case3 {
+  position: absolute;
+  float: left;
+  margin-top: 12%;
+  margin-left: -25%;
+}
+.case4 {
+  position: absolute;
+  float: left;
+  margin-top: 12%;
+  margin-left: -17%;
+}
+.Offers ul li {
+  list-style: none;
+}
+.Offers ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Offers ul li ul {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 2px 5px grey;
+  width: 100%;
+  top: 54px;
+  text-align: center;
+  right: 0px;
+  height: 40%;
+  line-height: 40px;
+  background-color: #fff;
+}
+.Offers ul li:focus-within > ul,
+.Offers ul li:hover > ul {
+  display: block;
+}
+.Offers > ul > li > ul > li > a > span {
+  margin-left: -33%;
+  position: absolute;
+  margin-top: 13%;
+}
+.exchangeimg {
+  width: 13%;
+  height: 15%;
+  margin-top: 1%;
+  margin-left: 43%;
+  float: left;
+}
+#navsupport {
+  width: 25%;
+  float: left;
+  margin-top: 17px;
+  margin-left: 1%;
+}
+#navsupport > a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  margin-left: 5%;
+  font-size: 14.5px;
+}
+#navcart {
+  width: 5%;
+  float: left;
+  margin-left: -6%;
+}
+#navcart ul li {
+  list-style: none;
+}
+#navcart ul li a {
+  text-decoration: none;
+  color: black;
+}
+#navcart ul li ul {
+  display: none;
+  box-shadow: 0px 2px 5px grey;
+  position: absolute;
+  width: 25%;
+  top: 56px;
+  text-align: center;
+  right: 0px;
+  height: 40%;
+  line-height: 40px;
+  background-color: #fff;
+}
+#navcart ul li:focus-within > ul,
+#navcart ul li:hover > ul {
+  display: block;
+}
+.navcartimg {
+  margin-top: 8px;
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+#navprofile {
+  width: 5%;
+  float: left;
+  margin-left: -1%;
+}
+#navprofile ul li {
+  list-style: none;
+}
+#navprofile ul li a {
+  text-decoration: none;
+  color: black;
+}
+#navprofile ul li ul {
+  display: none;
+  box-shadow: 0px 2px 5px grey;
+  position: absolute;
+  width: 24%;
+  top: 55px;
+  right: 0px;
+  height: 43%;
+  line-height: 40px;
+  margin-left: 2%;
+}
+#navprofile ul li ul li {
+  border-top: 2px solid #eaeaea;
+  background-color: #fff;
+}
+#navprofile ul li:focus-within > ul,
+#navprofile ul li:hover > ul {
+  display: block;
+}
+.navimage {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.navprofilelogo {
+  margin-top: 8px;
+  width: 25px;
+  float: left;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/* LOGIN PAGE */
+#loginid {
+  background-color: #f9f9f9;
+}
+.login {
+  display: inline-block;
+  width: 30%;
+  margin-left: 34%;
+  margin-top: 2%;
+}
+.login1 {
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+}
+.login2 {
+  list-style: none;
+  text-align: center;
+  margin-top: 10%;
+}
+.login2 > input {
+  padding: 2% 24% 2% 24%;
+  font-size: 16px;
+}
+.login3 {
+  list-style: none;
+  text-align: center;
+}
+.login3 > input {
+  padding: 2% 30% 2% 30%;
+  margin-top: 3%;
+  font-size: 16px;
+}
+.login4 {
+  list-style: none;
+  text-align: center;
+  margin-top: 8%;
+}
+.login4 > a {
+  text-decoration: none;
+  padding: 3% 36% 3% 37%;
+  background-color: #eb0028;
+  color: white;
+  border-radius: 2px;
+}
+.login5 {
+  list-style: none;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.login6 {
+  list-style: none;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 13px;
+}
+
+.login7 {
+  list-style: none;
+  text-align: center;
+  margin-top: 9%;
+}
+.login7 > a {
+  text-decoration: none;
+  padding: 3% 34% 3% 33%;
+  background-color: #302f2f;
+  color: white;
+}
+.login8 {
+  list-style: none;
+  text-align: center;
+  margin-top: 9%;
+}
+.login8 > a {
+  text-decoration: none;
+  padding: 3% 33% 3% 33%;
+  color: #000000;
+  border: 1px solid rgb(46, 46, 46);
+}
+.login9 {
+  list-style: none;
+  text-align: center;
+  margin-top: 9%;
+}
+.login9 > a {
+  text-decoration: none;
+  padding: 4% 30% 3% 31%;
+  background-color: #3c5a99;
+  color: white;
+}
+.login10 {
+  list-style: none;
+  text-align: center;
+  margin-top: 10%;
+}
+.login101 {
+  text-decoration: none;
+  border-right: 1px solid red;
+  padding-right: 6%;
+  font-size: 15px;
+  margin-left: 4%;
+  color: #0099cf;
+}
+.login102 {
+  text-decoration: none;
+  padding-left: 6%;
+  color: #0099cf;
+  font-size: 15px;
+}
+.login11 {
+  list-style: none;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 14px;
+  margin-bottom: 25%;
+}
+.login11 > a {
+  text-decoration: none;
+  color: #0099cf;
+}
+
+.googleimg {
+  width: 5%;
+}
+.fbimg {
+  width: 5%;
+}
+
+/* CONTACT  US */
+
+#contactus {
+  width: 100%;
+  display: inline-block;
+}
+.contactus1 {
+  width: 96%;
+  margin-left: 2%;
+}
+.contactus111 {
+  font-size: 18px;
+  width: 100%;
+  padding: 0% 0% 0% 0%;
+  line-height: 50px;
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 2px solid #e6e6e6;
+}
+.contactusa {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-left: 3%;
+}
+.contactus111 > span {
+  font-size: 28px;
+  float: right;
+}
+.contactus121 {
+  font-size: 18px;
+  padding: -20% 0% 2% 0%;
+  line-height: 50px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.contactus121 > span {
+  font-size: 28px;
+  float: right;
+}
+.contactus131 {
+  font-size: 18px;
+  width: 100%;
+  padding: -20% 0% 2% 0%;
+  line-height: 50px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.contactus131 > span {
+  font-size: 28px;
+  float: right;
+}
+.contactus141 {
+  font-size: 18px;
+  width: 100%;
+  padding: -20% 0% 2% 0%;
+  line-height: 50px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.contactus141 > span {
+  font-size: 28px;
+  float: right;
+}
+.contactus151 {
+  font-size: 18px;
+  width: 100%;
+  padding: -20% 0% 2% 0%;
+  line-height: 50px;
+  border-bottom: 2px solid #e6e6e6;
+}
+.contactus151 > span {
+  font-size: 28px;
+  float: right;
+}
+.contactus2 {
+  width: 100%;
+  margin-top: 2%;
+  display: inline-block;
+}
+.contactus21 {
+  width: 15%;
+  float: right;
+  margin-right: 2%;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.contactus21 > a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #0099cf;
+}
+.contactus22 {
+  display: inline-block;
+  width: 100%;
+}
+.contactus22 > ul {
+  list-style: none;
+}
+.contactus221 {
+  float: left;
+  width: 25%;
+  margin-left: -1%;
+}
+.contactus222 {
+  float: left;
+  width: 25%;
+  margin-left: -13%;
+}
+.contactus223 {
+  float: left;
+  width: 25%;
+  margin-left: -16%;
+}
+.contactus224 {
+  float: left;
+  width: 25%;
+  margin-left: -20%;
+}
+.contactus22 > ul > li > span {
+  margin-left: 2%;
+  color: #676767;
+  font-size: 14px;
+}
+.contactus22 > ul > li > img {
+  width: 6%;
+  float: left;
+}
+.contactus23 {
+  float: right;
+  width: 17%;
+  margin-right: 1%;
+}
+.contactus23 > a > img {
+  width: 13%;
+  padding: 0% 7% 0% 11%;
+}
+
+/* ABOUTUS CSS */
+#aboutus {
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 5%;
+  border-top: 2px solid #c7c7c7;
+  display: inline-block;
+}
+.aboutus1 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 2%;
+}
+.aboutus11 {
+  width: 15%;
+  float: left;
+  border-bottom: 1px solid #6a6969;
+  margin-left: 3%;
+  line-height: 45px;
+}
+.aboutus11 > a > img {
+  width: 13%;
+  float: left;
+}
+.aboutus11 > a > span {
+  float: left;
+  margin-left: 4%;
+  color: black;
+  text-decoration: none;
+  margin-top: -5%;
+}
+.aboutus12 {
+  width: 50%;
+  float: left;
+  margin-left: 32%;
+}
+.aboutus12 > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000000;
+}
+.aboutus121 {
+  padding: 0% 2% 0% 2%;
+  border-right: 1px solid#acacac;
+}
+.aboutus122 {
+  padding: 0% 2% 0% 2%;
+  border-right: 1px solid#acacac;
+}
+.aboutus123 {
+  padding: 0% 2% 0% 2%;
+  border-right: 1px solid#acacac;
+}
+.aboutus124 {
+  padding: 0% 2% 0% 2%;
+  border-right: 1px solid#acacac;
+}
+.aboutus125 {
+  padding: 0% 2% 0% 2%;
+}
+.aboutus2 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 4%;
+}
+.aboutus21 {
+  float: left;
+  width: 46%;
+  margin-left: 3%;
+}
+.aboutus21 > span {
+  font-size: 13px;
+}
+.aboutus22 {
+  float: left;
+  width: 50%;
+  margin-bottom: 5%;
+}
+.aboutus22 > img {
+  width: 30%;
+  margin-left: 67%;
+}
