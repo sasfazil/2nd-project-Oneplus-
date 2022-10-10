@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oneplus Website</title>
-    <link rel="stylesheet" href="index.css" />
     <link rel="shortcut icon" href="https://i.ibb.co/FY9BF80/one.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaquiery.css">
+    <script src="index.js"></script>
   </head>
   <body>
+    <div id="coupon">
+      <button onclick="closecoupon()" class="couponclose">&times;</button>
+      <h1>OnePlus Nord Watch</h1>
+      <a href="#navbar">Buy now at ₹4,990 <del>6,999</del></a>
+    </div>
     <nav id="navbar">
       <div id="brand">
         <a href="index.html">
@@ -295,7 +302,7 @@
         </ul>
       </div>
     </nav>
-    <main>
+    <main id="main">
       <section id="sliders">
         <a href="#sliders">
           <div class="maindiv">
@@ -342,14 +349,14 @@
             </div>
             <div class="div21img"><a href="#div21"><img src="https://i.ibb.co/9Wtpqnd/pic5.webp" alt="Oneplus TV Y1s Pro" title="Oneplus TV Y1s Pro"></a></div>
           </div>
-          <div class="div21">
+          <div class="div22">
             <div class="div2-2">
               <ul>
                 <li class="div221">Hear the Unheard</li>
                 <li class="div222">OnePlus Buds Pro </li>
-                <li class="div225">From <del>₹11 990</del> ₹8 990*</li>
-                <li class="div226">*Incl. bank discount</li>
-                <div class="div227">
+                <li class="div223">From <del>₹11 990</del> ₹8 990*</li>
+                <li class="div224">*Incl. bank discount</li>
+                <div class="div225">
                   <a href="#div22" class="buynow1">Buy now</a>
                   <a href="#div22" class="learnmore1">Learn more</a>
                 </div>
@@ -600,10 +607,7 @@
             <ul>
               <li class="shodes11">Shop with exclusive perks.</li>
               <li class="shodes12">Download the OnePlus store app on Google Play.</li>
-              <a href="#shodes1" class="shodes13"> 
-                <img src="https://i.ibb.co/6Z0YVmb/google.png" class="googleimg" alt="playstore">
-                <span>GooglePlay</span>
-              </a>
+              <a href="#shodes1" class="shodes13"> <img src="https://i.ibb.co/6Z0YVmb/google.png" class="googleimg" alt="playstore">GooglePlay</a>
             </ul>
           </div>
           <div class="shodes2">
@@ -726,6 +730,10 @@
           <a href="#aboutus2"><img src="https://i.ibb.co/Db0nw3d/trust.png" alt="aboutus"></a>
         </div>
       </div>
+      <div class="backtop">
+        <a href="#navbar" >^ Back To Top ^</a>
+      </div>
     </footer>
+    <script> window.onload=loadcoupon()</script>
   </body>
 </html>

@@ -1,0 +1,164 @@
+@media screen and (max-width:1418px) {
+    #navitems {
+        width: 46%;
+    }
+
+    #coupon>h1 {
+        margin: 7% 0% 31% 2%;
+    }
+
+    #coupon a {
+        padding: 1% 10%;
+    }
+
+    #navsupport {
+        width: 22%;
+        margin-left: 9%;
+    }
+
+    .servicecommu113 {
+        margin-top: 45%;
+    }
+
+    .aboutus12 {
+        width: 46%;
+        margin-left: 36%;
+    }
+}
+
+@media screen and (max-width:1349px) {
+    .div12>a>img {
+        height: 408px;
+    }
+
+    .div223 {
+        margin-top: 49%;
+    }
+
+    .neversettle22 {
+        margin-top: 45%;
+    }
+
+    .oxyos13 {
+        margin: 43% 0% 10% 5%;
+    }
+
+    .servicecommu113 {
+        margin-top: 35%;
+    }
+
+    .servicecommu213 {
+        margin-top: 38%;
+    }
+
+    .aboutus12 {
+        width: 49%;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .servicecommu113 {
+        margin-top: 35%;
+    }
+
+    .limitless22 {
+        margin-top: 65%;
+    }
+
+    .powercommu12 {
+        margin-top: 25%;
+    }
+
+    .servicecommu213 {
+        margin-top: 28%;
+    }
+}
+
+@media screen and (max-width:1264px) {
+    .aboutus12 {
+        width: 51%;
+        margin-left: 30%;
+    }
+
+    .div214 {
+        margin-top: 32%;
+    }
+
+    #navitems {
+        width: 52%;
+    }
+
+    #navsupport {
+        width: 23%;
+        margin-left: 3%;
+    }
+
+    .contactus221 {
+        width: 27%;
+    }
+}
+
+@media screen and (max-width:1177px) {
+    .aboutus12 {
+        width: 54%;
+        margin-left: 27%;
+    }
+
+    .Phone {
+        float: left;
+        width: 12%;
+    }
+
+    .Offers {
+        width: 10%;
+        float: left;
+    }
+
+    .Accessories {
+        float: left;
+        width: 21%;
+    }
+
+    .Wearables {
+        float: left;
+        width: 19%;
+    }
+
+    .TV {
+        float: left;
+        width: 8%;
+    }
+
+    .Audio {
+        float: left;
+        width: 13%;
+    }
+
+    .aboutus11 {
+        width: 17%;
+    }
+
+    #navitems {
+        width: 42%;
+    }
+
+    #navsupport {
+        width: 26%;
+        float: left;
+        margin: 1% 0% 0% 8%;
+    }
+
+    #coupon>h1 {
+        font-weight: lighter;
+        margin: 7% 0% 35% 2%;
+    }
+
+    #coupon a {
+        text-decoration: none;
+        padding: 1% 8%;
+        margin-left: 2%;
+        color: white;
+        background-color: black;
+    }
+}
