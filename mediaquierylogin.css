@@ -1,0 +1,47 @@
+@media screen and (max-width:1280px) {
+    #navitems {
+        width: 31%;
+    }
+    #navprofile ul li ul{
+        height: 38%;
+        box-shadow: -6px 13px 17px grey;
+    }
+    #navcart ul li ul {
+        height: 40%;
+    }
+    .login2>input {
+    padding: 2% 17%;
+    }
+    .login3>input {
+        padding: 2% 17%;
+    }
+    .login4>a {
+        text-decoration: none;
+        background-color: #eb0028;
+        padding: 3% 41%;}
+    .login {
+        display: inline-block;
+        width: 25%;
+        margin-left: 38%;
+    }
+    #brand>a>img {
+        margin-top: 3%;
+    }
+    .aboutus11 {
+        width: 17%;
+        margin-left: 1%;
+    }
+    .aboutus12 {
+        width: 50%;
+        margin-left: 32%;
+    }
+    .contactus221 {
+        width: 27%;
+    }
+    .contactus223 {
+        width: 23%;
+    }
+    .contactus22>ul>li>img {
+        width: 12%;
+    }
+}

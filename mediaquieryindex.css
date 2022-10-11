@@ -75,6 +75,12 @@
     }
 }
 @media screen and (max-width:1280px) {
+    .aboutus11 {
+        width: 17%;
+        margin-left: 1%;}
+    .shodes12 {
+        margin: 5% 0% 14% 5%;
+    }
     .Phone {
         
         width: 11%;
@@ -89,18 +95,8 @@
     .contactus221 {
         width: 27%;
     }
-
-    .contactus222 {
-        width: 25%;
-    }
-
     .contactus223 {
         width: 23%;
-    }
-
-    .contactus224 {
-        width: 25%;
-        
     }
     .contactus22>ul>li>img {
         width: 12%;
