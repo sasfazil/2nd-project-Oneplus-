@@ -74,7 +74,78 @@
         margin-top: 28%;
     }
 }
+@media screen and (max-width:1280px) {
+    .Phone {
+        
+        width: 11%;
+        margin-left: 2%;
+    }
+    
+    .TV {
+        
+        width: 7%;
+    }
+    
+    .contactus221 {
+        width: 27%;
+    }
 
+    .contactus222 {
+        width: 25%;
+    }
+
+    .contactus223 {
+        width: 23%;
+    }
+
+    .contactus224 {
+        width: 25%;
+        
+    }
+    .contactus22>ul>li>img {
+        width: 12%;
+    }
+    .Audio {
+        
+        width: 10%;
+    }
+    
+    .Wearables {
+        
+        width: 16%;
+    }
+    
+    .Accessories {
+        
+        width: 17%;
+    }
+    .acccart3 {
+        margin-top: 29%;}
+    .maindivlearn {
+        padding: 1% 6%;
+    }
+    .hicart14 {
+        margin-left: -20%;
+    }
+    .acccart11 {
+        margin-left: -59%;}
+    .hicart11 {
+        margin-left: -57%;}
+    .maindivbuy {
+        padding: 1% 7% ;
+    }
+    .div214 {
+        margin-top: 33%;
+    }
+    .Offers {
+        width: 7%;
+        
+    }
+    #navsupport{
+        width: 26%;
+    margin-left: 5%;
+    }
+}
 @media screen and (max-width:1264px) {
     .aboutus12 {
         width: 51%;

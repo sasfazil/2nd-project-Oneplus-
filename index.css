@@ -487,7 +487,9 @@ body {
     float: left;
     margin: 1% 0% 0% 12%;
 }
-
+.maindivlearn {
+    padding: 10px 80px;
+}
 #navsupport>a {
     text-decoration: none;
     color: black;
