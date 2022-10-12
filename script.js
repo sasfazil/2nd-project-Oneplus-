@@ -9,3 +9,7 @@ function closecoupon() {
     document.getElementById('main').style.opacity = '1'
     document.getElementById('navbar').style.opacity = '1'
 }
+function click(){
+    let dark = document.body;
+    dark.classList.toggle('mydark')
+}
