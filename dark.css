@@ -1,0 +1,115 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.darkmode {
+    background-color: black !important;
+    color: white !important;
+}
+
+.darkmode a {
+    color: white !important;
+}
+
+.darkmode #navitems span {
+    color: black;
+}
+
+.darkmode .buynow {
+    border: 1px solid white;
+}
+
+.darkmode .learnmore {
+    border: 1px solid white;
+}
+
+.darkmode .buynow1 {
+    border: 1px solid white;
+}
+
+.darkmode .learnmore1 {
+    border: 1px solid white;
+}
+
+.darkmode .hotpicsdrop ul li ul {
+    background-color: black;
+}
+
+.darkmode .hotpicsdrop ul li ul :hover {
+    background-color: white;
+    color: black;
+}
+
+.darkmode .onetopia4 {
+    color: #f50514 !important;
+}
+
+.darkmode .cableclub3 {
+    color: #f50514 !important;
+}
+
+.darkmode .currentcommu1 {
+    color: white;
+}
+
+.darkmode .contactus23>a>img {
+    background-color: white;
+    border-radius: 30%;
+}
+
+.darkmode #navcart {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.darkmode #navprofile {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.darkmode #brand img {
+    border-radius: 2%;
+}
+
+.darkmode #navcart ul li ul {
+    color: black;
+}
+
+.darkmode #navprofile ul li ul a {
+    color: black !important;
+}
+
+.darkmode .troublecommu ul li {
+    color: white;
+}
+
+.darkmode .servicecommu {
+    color: black;
+}
+
+.darkmode .servicecommu a {
+    color: black !important;
+}
+
+.darkmode .firstknow3 {
+    color: black !important;
+}
+
+.darkmode #aboutus {
+    background-color: black;
+}
+
+.darkmode .aboutus11>a>span {
+    color: white;
+}
+
+.darkmoo {
+    cursor: pointer;
+    width: 2%;
+    float: left;
+    margin: 1% 0% 0% 2%;
+}
+.darkmode #loginid{
+    background-color: black;
+}

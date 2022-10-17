@@ -501,7 +501,7 @@ body {
 #navcart {
     width: 2%;
     float: left;
-    margin: 0.6% 0% 0% 2%;
+    margin: 0.6% 0% 0% 0%;
 }
 
 #navcart ul li {
@@ -603,7 +603,7 @@ body {
 
 .maindiv {
     width: 100%;
-    height: 590px;
+    height: 670px;
     background-size: 100% 100%;
     background-image: url(https://i.ibb.co/WtPrs2M/slide1.png);
     animation: slider 10s infinite linear;

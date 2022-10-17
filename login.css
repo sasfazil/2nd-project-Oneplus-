@@ -10,14 +10,15 @@ body {
         sans-serif, system-ui;
     overflow-x: hidden;
 }
-
+.darkmoo {
+    margin: 1.3% 0% 0% 15% !important;
+}
 /* NAVBAR CSS */
 
 #navbar {
     width: 100%;
     display: inline-block;
     height: 55px;
-    border-bottom: 1px solid #a9a9a9;
 }
 
 #brand {
@@ -464,7 +465,7 @@ body {
     width: 2%;
     margin-top: 1%;
     float: left;
-    margin-left: 18%;
+    margin-left: 0%;
 }
 
 #navcart ul li {
@@ -556,6 +557,7 @@ body {
 
 /* LOGIN PAGE */
 #loginid {
+    border-top: 1px solid #a9a9a9;
     background-color: #f9f9f9;
 }
 
