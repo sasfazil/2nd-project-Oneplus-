@@ -501,7 +501,7 @@ body {
 #navcart {
     width: 2%;
     float: left;
-    margin: 0.6% 0% 0% 0%;
+    margin-top: 0.6%;
 }
 
 #navcart ul li {
