@@ -15,7 +15,10 @@ body {
 .darkmode #navitems span {
     color: black;
 }
-
+.darkmode #weather ul li ul {
+    background-color: black;
+    color: #fff;
+}
 .darkmode .buynow {
     border: 1px solid white;
 }

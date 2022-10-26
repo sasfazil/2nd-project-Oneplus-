@@ -497,6 +497,38 @@ body {
     margin-left: 5%;
     font-size: 14.5px;
 }
+#weather {
+    width: 1%;
+    float: left;
+    margin-top: 1%;
+}
+
+#weather ul li {
+    list-style: none;
+}
+
+#weather ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#weather ul li ul {
+    display: none;
+    position: absolute;
+    width: 25%;
+    top: 54px;
+    text-align: center;
+    right: 0px;
+    height: 200px;
+    line-height: 30px;
+    background-color: #fff;
+    color: black;
+}
+
+#weather ul li:focus-within>ul,
+#weather ul li:hover>ul {
+    display: block;
+}
 
 #navcart {
     width: 2%;
