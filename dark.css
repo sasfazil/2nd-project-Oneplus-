@@ -61,16 +61,6 @@ body {
     border-radius: 30%;
 }
 
-.darkmode #navcart {
-    background-color: white;
-    border-radius: 50%;
-}
-
-.darkmode #navprofile {
-    background-color: white;
-    border-radius: 50%;
-}
-
 .darkmode #brand img {
     border-radius: 2%;
 }
@@ -109,7 +99,7 @@ body {
 
 .darkmoo {
     cursor: pointer;
-    width: 2%;
+    width: 2.5%;
     float: left;
     margin: 1% 0% 0% 2%;
 }

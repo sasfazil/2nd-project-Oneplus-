@@ -533,7 +533,7 @@ body {
 #navcart {
     width: 2%;
     float: left;
-    margin-top: 0.6%;
+    margin-top: 1%;
 }
 
 #navcart ul li {
@@ -573,7 +573,7 @@ body {
 #navprofile {
     width: 2%;
     float: left;
-    margin-top: 0.6%;
+    margin-top: 1%;
     margin-left: 1%;
 }
 
@@ -605,12 +605,6 @@ body {
 #navprofile ul li:focus-within>ul,
 #navprofile ul li:hover>ul {
     display: block;
-}
-
-.navimage {
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
 }
 
 .navprofilelogo {
