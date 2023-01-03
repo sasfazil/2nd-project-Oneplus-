@@ -12,7 +12,7 @@ function closecoupon() {
 function darkmode(){
     let darker=document.body
     darker.classList.toggle('darkmode')
-    }
+}
 let x = document.getElementById('out');
 let y = document.getElementById('weatherout');
 function geolocation() {

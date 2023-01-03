@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.darkmode {
+    background-color: black !important;
+    color: white !important;
+}
+
+.darkmode nav {
+    background-color: black !important;
+}
+
+.darkmode #navbarText ul li a {
+    color: white !important;
+}
+
+.darkmode .login7 a {
+    color: black !important;
+    background-color: white !important;
+}
+
+.darkmode .login8 a {
+    border: 1px solid white;
+    color: white !important;
+}
+
+.darkmode .contactus1 details p a {
+    color: white !important;
+}
+
+.darkmode .contactus22 a {
+    color: white !important;
+}
+
+.darkmode .aboutus1 div a {
+    color: white !important;
+}
